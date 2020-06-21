@@ -11,27 +11,27 @@
  "Config": [{
 
      "Name Bet Set": " 🎲 5 %  🎲 ",
-     "Base Bet": "0.05",
+     "Base Bet": "0.0005",
      "Max Bet": "OFF",
      "Chance": "40",
      "Random Chance": {
           "Toggle": "ON",
-          "Min": "40",
-          "Max": "60"
+          "Min": "5",
+          "Max": "10"
         },
      "Bet": {
           "Bet": "Hi",
           "Random": "ON",
           "Hi / Low": {
               "Toggle": "OFF",
-              "If Lose": "4",
-              "If Win": "5"
+              "If Lose": "2",
+              "If Win": "4"
             }
         },
      "If Win": "0.7",
-     "If Lose": "1.14",
+     "If Lose": "1.15",
      "Reset If Win": "1",
-     "Reset If Profit": "0.5",
+     "Reset If Profit": "OFF",
      "Interval": "1"
      
 }],
